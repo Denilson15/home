@@ -1,0 +1,147 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+
+*/
+
+body{
+    background: #1b263b;
+    color: #e0e1dd;
+    text-align: center;
+    margin: 0px;
+    text-shadow: 0px 0px 10px rgb(41, 39, 39);
+    font-family: "Roboto Flex", serif;
+}
+
+#title{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#subtitle{
+    text-decoration: underline;
+    width: auto;
+    font-size: 2rem;
+}
+
+#description{
+    margin-top:0px;
+    font-family: "Sigmar", serif;
+}
+
+#hero{
+    margin-top: 0px;
+    background-image: url("images/bayarea.jpg");
+    background-size: cover;
+    height: 300px;
+
+}
+
+img {
+    width: 100px;
+}
+
+#sites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #sites {
+        flex-direction: column; /* Stacks the city divs vertically on small screens */
+        align-items: center; /* Centers them for better appearance */
+    }
+    .cities {
+        width: 90%; /* Adjust width so they fit better */
+        margin-bottom: 20px;
+    }
+}
+
+.cities{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 10px;
+    /* border: 4px solid #e0e1dd; */
+}
+
+.city-name{
+    margin-left: 10px;
+    display: inline;
+}
+
+.place-desc{
+    margin-left: 10px;
+    text-align:justify;
+    margin-top: 5px;
+}
+
+.cities{
+    min-width: 425px;
+}
+
+#about-me{
+    text-align: justify;
+    flex: 1; /* Allows text to grow and shrink */
+    min-width: 300px; /* Prevents the text from getting too narrow */
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word; /* Ensures long words wrap */
+}
+
+#guide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #07080F;
+    max-width: 700px;  /* Adjust based on your desired width */
+    margin: 0px auto 0px auto;
+    padding: 0px 15px;
+    background-color: #1d1716;
+    box-shadow: 3px -3px 5px #BF5F64;
+}
+
+@media screen and (max-width: 768px) {
+    #guide {
+        flex-direction: column; /* Stacks the content vertically */
+        align-items: center;
+        text-align: center; /* Ensures text is centered properly */
+    }
+
+    .guide-content, .guide-image {
+        width: 90%; /* Ensures proper spacing */
+        margin-bottom: 20px;
+    }
+}
+
+#name-pic{
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#gary{
+    width: 200px;
+    font-family: "Sigmar", serif;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+#gary-pic{
+    width: 200px;
+}
+
+#footer{
+    background-color: #07080F;
+    padding: 10px 0px 30px 0px;
+}
