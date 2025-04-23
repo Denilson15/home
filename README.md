@@ -1,4 +1,4 @@
-# Home Page Project
+# Home Town Webpage
 
 This is one of the first projects I worked on when starting the Scrimba Frontend Developer Career Path. Developed from scratch using **HTML**, **CSS**, and **JavaScript**, this project served as an introduction to building static web pages and understanding the fundamentals of web development.
 
@@ -6,7 +6,7 @@ This is one of the first projects I worked on when starting the Scrimba Frontend
 
 ## ✨ Overview
 
-This project showcases a simple home page layout, including:
+This project showcases a simple home town-themed webpage layout, including:
 
 - A header section with a navigation bar
 - A main content area with text and images
